@@ -20,37 +20,28 @@ public class testVectors {
 
     @Test
     public void shouldReportXCoordinate(){
-        assertThat(vectorOne.asString(), containsString("1"));
+        assertThat(vectorOne.toString(), containsString("1"));
     }
 
-
-
-    @Test
-    public void createXValueVector(){
-      assertEquals(1.0, vectorOne.getXCoord(), .05);
-    }
-    @Test
-    public void createYValueVector(){
-        assertEquals(2.0, vectorOne.getYCoord(), .05);
-    }
     @Test
     public void testSumOfVectors(){
-        assertEquals(new SimpleVector(4,6), (VectorMath.add(vectorOne, vectorTwo)));
+        assertThat(vectorOne.add(vectorTwo), containsString("<4.0, 6.0>"));
     }
+
     @Test
-    public void testDiffOfVectors(){
-        assertEquals(new SimpleVector(-2,-2), VectorMath.subtract(new SimpleVector(1, 2), new SimpleVector(3, 4)));
+    public void testDifferenceOfVectors(){
+        assertThat(vectorOne.subtract(vectorTwo), containsString("<-2.0, -2.0>"));
     }
+
     @Test
     public void testDotProductOfVectors(){
-        double result = vectorOne.dot(vectorTwo);
-
-        double dotProduct = vectorOne.getXCoord() * vectorTwo.getXCoord() + vectorOne.getYCoord() * vectorTwo.getYCoord();
-        assertEquals(dotProduct, VectorMath.product(new SimpleVector(1, 2), new SimpleVector(3, 4)), .05);
+        assertThat(vectorOne.dot(vectorTwo), containsString("11"));
     }
+
     @Test
     public void testfindLengthOfVector(){
        double length = vectorOne.getXCoord()*vectorOne.getXCoord() + vectorOne.getYCoord()*vectorOne.getYCoord();
-        assertEquals(length, vectorOne.getLength(), .05);
+        assertThat(vectorTwo.lengthAsString(), containsString("5"));
     }
 }
+

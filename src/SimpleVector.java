@@ -25,6 +25,38 @@ public class SimpleVector {
         return yCoord;
     }
 
+    public String add(SimpleVector vectorToAdd){
+
+        double sumOfXCoordinates = this.getXCoord() + vectorToAdd.getXCoord();
+        double sumOfYCoordinates = this.getYCoord() + vectorToAdd.getYCoord();
+
+        SimpleVector vectorSum = new SimpleVector(sumOfXCoordinates, sumOfYCoordinates);
+
+        return vectorSum.toString();
+    }
+    public String subtract(SimpleVector vectorToAdd){
+
+        double sumOfXCoordinates = this.getXCoord() - vectorToAdd.getXCoord();
+        double sumOfYCoordinates = this.getYCoord() - vectorToAdd.getYCoord();
+
+        SimpleVector vectorSum = new SimpleVector(sumOfXCoordinates, sumOfYCoordinates);
+
+        return vectorSum.toString();
+    }
+    public String dot(SimpleVector two) {
+
+        double productOfXValues = this.getXCoord() * two.getXCoord();
+        double productOfYValues = this.getYCoord() * two.getYCoord();
+
+        double dotProduct = productOfXValues + productOfYValues;
+        return String.valueOf(dotProduct);
+    }
+
+    public String lengthAsString(){
+        return String.valueOf(length);
+    }
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

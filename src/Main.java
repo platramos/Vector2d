@@ -11,13 +11,13 @@ public class Main {
         //print coordinates
         System.out.println(firstVector.toString());
         //print sum
-        System.out.println(VectorMath.add(firstVector, secondVector).toString());
+        System.out.println(firstVector.add(secondVector).toString());
         //print difference
-        System.out.println(VectorMath.subtract(firstVector, secondVector).toString());
-        //print product
-        System.out.println(VectorMath.product(firstVector, secondVector));
+        System.out.println(firstVector.subtract(secondVector).toString());
+        //print dot
+        System.out.println(firstVector.dot(secondVector));
         //print length of vector
-        System.out.println(firstVector.getLength());
+        System.out.println(firstVector.lengthAsString());
 
     }
 }

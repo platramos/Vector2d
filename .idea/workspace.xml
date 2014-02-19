@@ -64,11 +64,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testVectors.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testVectors.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/testVectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="35" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.61734694" vertical-offset="252" max-vertical-offset="870">
-              <folding />
+            <state line="39" column="4" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,25 +78,16 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="58" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="20" column="87" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VectorMath.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VectorMath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="14" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleVector.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SimpleVector.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SimpleVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="17" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="780">
+            <state line="55" column="38" selection-start="1524" selection-end="1524" vertical-scroll-proportion="1.25" vertical-offset="0" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -111,10 +104,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/arrow.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/VectorMath.java" />
         <option value="$PROJECT_DIR$/src/SimpleVector.java" />
         <option value="$PROJECT_DIR$/Tests/testVectors.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -151,6 +144,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,7 +197,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,16 +219,16 @@
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.testVectors.shouldReportXCoordinate">
-    <configuration default="false" name="testVectors.shouldReportXCoordinate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="All in Vectors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Vectors" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testVectors" />
-      <option name="METHOD_NAME" value="shouldReportXCoordinate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -284,19 +277,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -323,6 +303,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -423,11 +416,11 @@
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.testVectors.shouldReportXCoordinate" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Vectors" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.testVectors.shouldReportXCoordinate" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Vectors" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -473,6 +466,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -485,8 +479,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -512,15 +505,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Tests/testVectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="111" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="690">
+        <state line="56" column="0" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="885">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="58" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VectorMath.java">
+    <entry file="file://$PROJECT_DIR$/src/SimpleVector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="103" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="330">
+        <state line="49" column="17" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="870">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/testVectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="111" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="690">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,30 +542,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VectorMath.java">
+    <entry file="file://$PROJECT_DIR$/Tests/testVectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="14" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
+        <state line="39" column="4" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="20" column="87" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleVector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="17" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/testVectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="35" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.61734694" vertical-offset="252" max-vertical-offset="870">
+        <state line="55" column="38" selection-start="1524" selection-end="1524" vertical-scroll-proportion="1.25" vertical-offset="0" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
